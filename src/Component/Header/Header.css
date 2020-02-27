@@ -1,0 +1,71 @@
+.LoginSpan_ExternalFile{
+  /*letter-spacing:1.5px !important;
+  */transform-style: preserve-3d  !important;
+  transition: ease-in-out 2s  !important;
+  position:relative;
+  padding: 5px 20px !important;
+  -webkit-transition: ease-in-out 2s  !important;
+  -moz-transition: ease-in-out 2s  !important;
+  -ms-transition: ease-in-out 2s  !important;
+  -o-transition: ease-in-out 2s  !important;
+}
+
+.LoginSpan_ExternalFile:hover{
+  transform: rotateX(360deg);
+}
+.LoginSpan_ExternalFile p{
+  color:#000 !important;
+  transform-style: preserve-3d  !important;
+  transform: perspective(100px) translateZ(20px) !important;
+  -webkit-transform: perspective(100px) translateZ(20px) !important;
+  -moz-transform: perspective(100px) translateZ(20px) !important;
+  -ms-transform: perspective(100px) translateZ(20px) !important;
+  -o-transform: perspective(100px) translateZ(20px) !important;
+}
+.LoginSpan_ExternalFile p span{
+  font-size:15px !important;
+}
+.LoginSpan_ExternalFile p i{
+  font-size: 12px !important;
+  color:#000 !important;
+}
+.LoginSpan_ExternalFile:before{
+  content:'';
+  position:absolute;
+  top:4px;
+  left:6px;
+  right:6px;
+  bottom:4px;
+  border: 2px solid #000;
+  transform-style: preserve-3d  !important;
+  transform: perspective(500px) translateZ(15px) !important;
+  border-radius:30px !important;
+  -webkit-transform: perspective(500px) translateZ(15px) !important;
+  -moz-transform: perspective(500px) translateZ(15px) !important;
+  -ms-transform: perspective(500px) translateZ(15px) !important;
+  -o-transform: perspective(500px) translateZ(15px) !important;
+  -webkit-border-radius:30px !important;
+  -moz-border-radius:30px !important;
+  -ms-border-radius:30px !important;
+  -o-border-radius:30px !important;
+}
+.LoginSpan_ExternalFile:after{
+  content:'';
+  position:absolute;
+  top:2px;
+  left:2px;
+  right:2px;
+  bottom:2px;
+  border: 2px solid #000;
+  transform-style: preserve-3d  !important;
+  transform: perspective(500px) translateZ(-15px) !important;
+  border-radius:30px !important;
+  -webkit-transform: perspective(500px) translateZ(-15px) !important;
+  -moz-transform: perspective(500px) translateZ(-15px) !important;
+  -ms-transform: perspective(500px) translateZ(-15px) !important;
+  -o-transform: perspective(500px) translateZ(-15px) !important;
+  -webkit-border-radius:30px !important;
+  -moz-border-radius:30px !important;
+  -ms-border-radius:30px !important;
+  -o-border-radius:30px !important;
+}

@@ -1,0 +1,96 @@
+.whatsAppStyle_ExternalFile{
+  color:white;
+  z-index:999 !important;
+}
+.WhatsAppStyleContainer_ExternalFile{
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  background-color:#1BD741;
+  padding: 0px 10px;
+  font-size: 34px;
+}
+.WhatsAppStyleContainer_ExternalFile:hover .whatsAppStyle_ExternalFile {
+  color:#1BD741 !important;
+}
+ .WhatsAppStyleContainer_ExternalFile::before{
+  content: "";
+  position: absolute;
+  left:130%;
+  top:66%;
+  width: 164%;
+  height: 123%;
+  background: #F2F2F2;
+  border-color: #F2F2F2;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+
+.WhatsAppStyleContainer_ExternalFile:hover::before{
+  animation: animation1 0.7s 1;
+  top:-10%;
+  left:-10%;
+  -webkit-animation: animation1 0.7s 1;
+}
+@keyframes animation1{
+  0%{
+    left: -110%;
+    top:   90%;
+  }
+  50%{
+    left: -10%;
+    top:  -30%;
+  }
+  100%{
+    left: -10%;
+    top:  -10%;
+  }
+}
+.FaceBookStyle_ExternalFile{
+  background-color:#3A559F;
+  padding: 7px 10px;
+  font-size: 30px;
+  border-radius: 10px;
+  color:white;
+  overflow: hidden;
+  position: relative;
+}
+.twitterStyle_ExternalFile{
+  background-color:#50ABF1;
+  padding: 7px 10px;
+  font-size: 30px;
+  border-radius: 10px;
+  color:white;
+  overflow: hidden;
+  position: relative;
+}
+.instagramStyle_ExternalFile{
+  background:linear-gradient(180deg,#F7783A,#E24BB1);
+  padding: 7px 10px;
+  font-size: 30px;
+  border-radius: 10px;
+  color:white;
+  overflow: hidden;
+  position: relative;
+}
+.linkedInStyle_ExternalFile{
+  background-color:#0084B1;
+  padding: 7px 10px;
+  font-size: 30px;
+  border-radius: 10px;
+  color:white;
+  overflow: hidden;
+  position: relative;
+}
+.youTubeStyle_ExternalFile{
+  background-color:#DC472E;
+  padding: 7px 10px;
+  font-size: 30px;
+  border-radius: 10px;
+  color:white;
+  overflow: hidden;
+  position: relative;
+}

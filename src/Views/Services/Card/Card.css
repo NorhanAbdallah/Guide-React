@@ -1,0 +1,77 @@
+#servicesCard{
+    width: 85%;
+    margin: auto;
+    position: relative;
+}
+
+#servicesCard .card {
+    border-radius: 30px;
+    box-shadow: rgba(82, 163, 24, 0.13)  0px 0px 31px 1px !important;
+    margin-bottom: 25px;
+    padding: 10px;
+    border: 0
+}
+#servicesCard .card-img-top {
+    border-radius: 30px;
+    height: 250px;
+}
+#servicesCard .card-body { padding: 1.25rem 0.25rem !important; }
+#serviceCardBTN a { text-decoration: none; }
+
+.serviceCardTitle { padding: 0 2%; display: flex; justify-content: space-between; }
+.serviceCardTitle h4 { color: #4E4E4E; }
+.serviceCardTitle h6 { font-size: 22px; font-weight: 500; color: #AAAAAA; margin-top: 3px; }
+.card-subtitle span { color: #4E4E4E; font-size: 22px; font-weight: 500; }
+.card-subtitle p { color: #FA7F2B; font-size: 18px; font-weight: 500; }
+.timeCard { color: #FA7F2B !important; font-size: 18px !important; font-weight: 500 !important; }
+
+#serviceCardBTN button { 
+    border-radius: 30px; 
+    padding: 4px 0;
+    outline: 0;
+    font-size: 1.3rem;
+    box-shadow: 0 0 7px 6px rgba(0, 0, 0, 0.04);
+    color: #fff; 
+}
+.contentOnImage { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50%;
+    padding: 22px;
+    opacity: 0  !important;
+}
+#servicesCard:hover .contentOnImage{
+    opacity: 1 !important;
+}
+.ratingService p{ background-color: white; color: #FA7F2B;  border-radius: 30px; text-align: center; cursor: pointer; margin-bottom: 0; width: 85px; padding: 3px 0; font-size: 20px;}
+.heartService { background-color: white; color: #9E9E9E;  border-radius: 30px; text-align: center; margin-bottom: 15px; cursor: pointer; width: 55px; height: 42px;}
+.heartService i { font-size: 22px; line-height: 45px;}
+.phoneService { background-color: white; color: #52A318; border-radius: 30px; text-align: center; margin-bottom: 15px; cursor: pointer; width: 55px; height: 42px;}
+.phoneService i { font-size: 22px; line-height: 45px;}
+
+@media(max-width: 767px){
+    .ratingService { width: 50%; }
+    .serviceCardTitle h4 { font-size: 18px; }
+    .serviceCardTitle h6 { font-size: 14px; margin-top: 6px; }
+    .card-subtitle p { font-size: 14px; }
+    .card-subtitle span { font-size: 12px; }
+    #serviceCardBTN button { font-size: 22px; }
+    #servicesCard{
+        width: 100%;
+     
+    }
+}
+@media(max-width:881px){
+    .ratingService { width: 55%; }
+    .serviceCardTitle h4 { font-size: 18px; }
+    .serviceCardTitle h6 { font-size: 14px; margin-top: 6px; }
+    .card-subtitle p { font-size: 14px; }
+    .card-subtitle span { font-size: 12px; }
+    #serviceCardBTN button { font-size: 22px; }
+}
+@media(max-width: 1299px){
+    .ratingService { width: 46%; }
+}

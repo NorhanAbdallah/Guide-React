@@ -1,0 +1,769 @@
+.profileModal .modal-header .close{
+    display: none;
+}
+
+.profileModal .custom-date {
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 18px;
+    background-color: #FC8A3D;
+    padding-bottom: 8px;
+    padding-top: 12px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.profileModal .selectDateAuth{
+    position: absolute;
+    top: 0;
+    height: 45px;
+    width: 90%;
+}
+
+.react-datepicker-wrapper,.react-datepicker__input-container{width: 100%;}
+
+.profileModal .selectDateAuth input{
+    height: 50px;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.profileModal .closeModal{
+    position: absolute;
+    top: 15px;
+    width: 50px!important;
+    cursor: pointer;
+}
+
+.profileModal .closeModal{
+    right: 10px;
+}
+
+.profileModal .closeModal{
+    left: 10px;
+}
+
+.profileModal-styleunifiednumber{
+    max-width: 600px!important;
+}
+
+.profcardfive-box .dv-star-rating{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.profcardfive-box .rateContainer .dv-star-rating-full-star{
+    color: #ED9003 !important;
+}
+
+.profcardfive-box .dv-star-rating-input{
+    display: inline!important;
+    position: relative!important;
+    opacity: 0!important;
+}
+
+.profileView-header{
+    /* background-image: url('../../assets/Images/Profile/profileBG.jpeg'); */
+    background-image: url('../../assets/Images/Profile/BG.jpeg');
+    text-align: center;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}
+
+.profileView-header > div{
+    margin: auto auto 10px;
+}
+
+.profileView-header-title{
+    color: #fff;
+}
+
+.profileView-header-data .views{
+    background-color: inherit;
+    border: 3px solid #fff;
+    border-radius: 18px;
+    padding: 15px 7px;
+    cursor: initial;
+}
+
+.profileView-header-data .editprofile,
+.profileView-header-data .unifiednumber{
+    background-color: #fff;
+    border: 3px solid #fff;
+    border-radius: 18px;
+    padding: 10px 12px;
+    font-weight: 700;
+}
+
+.profileView-header-data .editprofile a{
+    /* text-decoration: none; */
+    color: #4E9D15;
+}
+
+.profileView-header-data .unifiednumber{
+    color: #FB9956;
+}
+
+.profileView-header-data .unifiednumber:hover,
+.profileView-header-data .unifiednumber:focus,
+.profileView-header-data .unifiednumber:active{
+    background-color: #fff!important;
+    border: 3px solid #fff!important;
+    box-shadow: none!important;
+    color: #FB9956!important;
+}
+
+.profileView-header-data .editprofile:hover,
+.profileView-header-data .editprofile:focus,
+.profileView-header-data .editprofile:active{
+    background-color: #fff!important;
+    border: 3px solid #fff!important;
+    box-shadow: none!important;
+}
+
+.profileView-header-data .views:hover,
+.profileView-header-data .views:focus,
+.profileView-header-data .views:active{
+    background-color: inherit!important;
+    border: 3px solid #fff!important;
+    box-shadow: none!important;
+}
+
+.profileView .profile-cardBody{
+    width: 80%;
+    height: 90%;
+    padding-top: 50px;
+    box-shadow: 0 0 7px 6px rgba(0, 0, 0, 0.04);
+    border-radius: 25px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.profileView .profile-cardBody .profile-cardBody-img img{
+    width: 100px;
+    height: auto;
+    margin: auto;
+}
+
+.profileView .profile-cardBody .profile-cardBody-title{
+    margin-top: 35px;
+    padding-bottom: 20px;
+}
+
+.profileModal .modal-content{
+    border-radius: 20px;
+}
+
+.profileModal .modal-header{
+    border-bottom: 0!important;
+    position: relative;
+}
+
+.profileModal .modal-title{
+    margin: 0 auto;
+    text-align: center;
+    color: #4F9E16;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem
+}
+
+.profileModal .modal-header .close{
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    position: absolute;
+}
+
+.profileModal .modalheaderen .close{
+    right: 10px;
+}
+
+.profileModal .modalheaderar .close{
+    left: 10px;
+}
+
+.profileModal .modal-header .close:focus{
+    outline: 0
+}
+
+.profileModal .modal-header .close span{
+    background-color: #F2F2F2;
+    border-radius: 50%;
+    padding: 0 15px 0px;
+}
+
+.profileModal .styleBTN,
+.editProfile .styleBTN{
+    background-image: linear-gradient(to right,#52A318, #347704); border-color: #52A318 !important;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0;
+    border-radius: 15px;
+    border: 0;
+    outline: 0;
+    font-size: 1.3rem;
+    box-shadow: 0 0 7px 6px rgba(0, 0, 0, 0.04);
+    color: #fff;
+    margin-top: 25px;
+}
+
+.profileModal .styleBTN:hover,
+.profileModal .styleBTN:active{
+    background-image: linear-gradient(to right,#FD9046,#FB8332); border-color: #FD9046 !important;
+}
+
+/* Start Card One */
+
+.profileModal-styleprofcardone{
+    max-width: 600px;
+}
+
+.profcardone .profcardone-images > div{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.profcardone .profcardone-images img{
+    width: 75%;
+    height: 80px;
+}
+
+.profcardone .profcardone-images i{
+    position: absolute;
+    color: red;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 3px 5px;
+    top: -10px;
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.2),0 6px 8px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+/* End Card One */
+
+/* Start Card Two */
+
+.profileModal-styleprofcardtwo{
+    max-width: 600px!important;
+}
+
+.profcardtwo{
+    background-color: #F5F5F5;
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.profcardtwo input,
+.profcardtwo .input-group-text{
+    border: 0;
+    background-color: inherit;
+    border-radius: 0;
+    padding: 0;
+}
+
+.profcardtwo input:focus{
+    outline: none;
+    box-shadow: none;
+    background-color: inherit;
+}
+
+/* End Card Two */
+
+/* Start Card Three */
+
+.profileModal-styleprofcardthree{
+    max-width: 700px!important;
+}
+
+.profileModal-styleprofcardthree .profcardthree h5{
+    color: #FA7F2B;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.profcardthree .profcardthree-checkboxes{
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.profcardthree .profcardthree-checkboxes .input-group{
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    margin-bottom: 16px;
+    padding: 10px ;
+}
+
+.profcardthree .profcardthree-checkboxes .input-group-text{
+    background-color: inherit;
+    border: 0;
+}
+
+.profcardthree .profcardthree-checkboxes label{
+    margin-bottom: 0;
+}
+
+.profcardthree .profcardthree-listservices img{
+    width: 80%;
+}
+
+.profcardthree textarea{
+    background-color: #F5F5F5;
+    border: 1px solid #f0f0f0;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+.stylefileinput-uploadPDF, .stylespecialfileinput-uploadPDF{
+    position: relative;
+    cursor: pointer;
+}
+
+.stylespecialfileinput-uploadPDF input[type="file"]{
+    position: absolute;
+    cursor: pointer;
+    height: 75px;
+    opacity: 0;
+    width: 100%;
+    left: 0;
+}
+
+.stylefileinput-uploadPDF input[type="file"]  {
+    position: absolute;
+    top: 5px;
+    cursor: pointer;
+    height: 75px;
+    opacity: 0;
+    width: 100%;
+    left: 0;
+}
+.stylefileinput-uploadPDF .custom-file-upload {
+    border: 2px dashed #AAAAAA;
+    display: block;
+    padding: 20px 0px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 18px;
+    color: #FA7F2B;
+    font-size: 20px;
+}
+
+/* End Card Three */
+
+/* Start Card Four*/
+
+.profileModal-styleprofcardfour{
+    max-width: 700px!important;
+}
+
+.profileModal-styleprofcardfour .profcardfour h5{
+    color: #FA7F2B;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.profileModal-styleprofcardfour .profcardfour textarea{
+    width: 100%;
+    background-color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    border-radius: 20px;
+    padding: 10px 15px;
+    min-height: 120px;
+    color: #B7B7B7;
+}
+
+.profileModal-styleprofcardfour .profcardfour textarea:focus{
+    outline: none;
+}
+
+.profileModal-styleprofcardfour .profcardfour-line{
+    border: 1px solid #F5F5F5;
+    width: 90%;
+    margin: 35px auto;
+}
+
+/* End Card Four*/
+
+/* Start Card Five*/
+
+.profileModal-styleprofcardfive{
+    max-width: 700px!important;
+    max-height: 90vh;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.profileModal-styleprofcardfive .profcardfive{
+    border-bottom: 1px solid #F5F5F5;
+    padding: 25px 0;
+}
+
+.profileModal-styleprofcardfive .profcardfive:last-child{
+    border-bottom: 0;
+}
+
+.profileModal-styleprofcardfive .profcardfive h6{
+    color: #B7B7B7;
+    display: flex;
+    margin: 0 15px 10px;
+}
+
+.profileModal-styleprofcardfive .profcardfive .profcardfive-box{
+    background-color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    border-radius: 20px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profileModal-styleprofcardfive .profcardfive .profcardfive-rating h5{
+    color: #495057f2;
+}
+
+.profileModal-styleprofcardfive .profcardfive .profcardfive-icon i{
+    background-image: linear-gradient(270deg, #E22E30, #E83C47);
+    color: #fff;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 15px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+/* End Card Five*/
+
+/* Start Card Six */
+.profileModal-styleprofcardsix{
+    max-width: 700px!important;
+}
+
+.profileModal-styleprofcardsix .profcardsix{
+    background-color: #20A439;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    width: 180px;
+    height: 130px;
+    margin: 0 auto 22px;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2),0 6px 12px 0 rgba(0,0,0,0.19);
+    position: relative;
+    cursor: pointer;
+}
+
+.profcardsix .centercardprof{
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.profcardsix .profcardsix-title span{
+    font-weight: 700;
+}
+
+.profcardsix .profcardsix-icon i{
+    font-size: 50px;
+    padding-top: 15px;
+    height: 80px;
+}
+
+.profcardsix .specialicon i{
+    font-size: 40px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    height: auto;
+    padding-top: 0;
+}
+
+.profcardsix .profcardsix-number span{
+    font-size: 20px;
+}
+
+/* End Card Six */
+
+/* Start Card Seven */
+
+.profileModal-styleprofcardseven{
+    max-width: 600px!important;
+}
+
+.profileModal-styleprofcardseven form > i{
+    background-image: linear-gradient(270deg, #E22E30, #E83C47);
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.profileModal-styleprofcardseven form{
+    border: 2px dashed #FB8332;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding: 20px 7px 0px;
+}
+
+.profileModal-styleprofcardseven .input-group{
+    margin-bottom: 20px;
+}
+
+.profileModal-styleprofcardseven input{
+    background-color: #F5F5F5;
+    border-radius: 15px!important;
+    padding: .7rem .75rem;
+    height: auto;
+    color: rgb(158, 158, 158);
+}
+
+.profileModal-styleprofcardseven .input-group-text{
+    background-image: linear-gradient(270deg, #fd9046, #fb8332);
+    border: 0;
+    border-radius: 22px!important;
+    padding: 0 20px;
+    color: #fff;
+    box-shadow: rgb(231, 201, 157) 4px 4px 8px 1px;
+}
+
+.profileModal-styleprofcardseven .input-group-text i{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.profcardseven-addressspecial .form-group{
+    margin-bottom: 0;
+}
+
+.profcardseven-address{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profcardseven-address .form-group{
+    width: 28%;
+}
+
+.profcardseven-address .form-group select{
+    background-color: #F5F5F5;
+    border-radius: 15px!important;
+    color: #52A318;
+    height: auto;
+    padding: .7rem .75rem   ;
+}
+
+/* End Card Seven */
+
+/* Start Card Eight */
+
+.profileModal-styleprofcardeight{
+    max-width: 600px!important;
+}
+
+.profcardeight-dates{
+    border-bottom: 1.5px solid #F5F5F5;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.profcardeight-dates .input-group-text{
+    border: 0;
+    color: #fff;
+    background-color: inherit;
+}
+
+.profcardeight-dates .form-control{
+    background-color: #F5F5F5;
+    border-radius: 15px!important;
+    padding: .7rem .75rem;
+    height: auto;
+    color: rgb(158, 158, 158);
+    border: 0;
+    display: flex;
+}
+
+.profcardeight-dates .form-control span::after{
+    content: '-';
+    /* display: b; */
+    margin: 0 5px;
+    color: #FA7F2B;
+    font-weight: 800;
+}
+
+.profcardeight-dates .form-control span:last-child::after{
+    content: '';
+    margin: 0;
+}
+
+.profcardeight-dates .input-group-text i{
+    font-size: 30px;
+    color: #FE4651;
+    cursor: pointer;
+}
+
+.profcardeight-workdate input{
+    text-align: center;
+    padding: 2rem .75rem;
+    background-color: #F5F5F5;
+    border-radius: 15px!important;
+    margin-bottom: 20px;
+}
+
+/* End Card Eight */
+
+
+/* Start Edit Profile */
+
+.editProfile-BG{
+    /* background-image: url('../../assets/Images/Profile/editBG.jpeg'); */
+    background-image: url('../../assets/Images/Profile/BGedit.jpeg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.editprofile-body{
+    width: 90%;
+    margin: -150px auto 25px;
+}
+
+.editProfile h2{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.editProfile .editProfile-form{
+    background-color: #fff;
+    box-shadow: 0 0 7px 6px rgba(0, 0, 0, 0.04);
+    padding: 40px 40px 20px;
+    border-radius: 15px;
+}
+
+.editProfile .editProfile-form .input-group .input-group-text i{
+    cursor: pointer;
+}
+
+.editProfile .editProfile-form .inputar,
+.editProfile .editProfile-form .inputen{
+    display: flex;
+}
+
+.editProfile .editProfile-form input,
+.editProfile .editProfile-form .input-group-text,
+.profileModal-styleunifiednumber input,
+.profileModal-styleunifiednumber .input-group-text{
+    border-radius: 0;
+    background-color: #F5F5F5;
+    border: 0;
+}
+
+.editProfile .editProfile-form .inputar .form-control,
+.profileModal-styleunifiednumber .inputar .form-control{
+    border-radius: 0 15px 15px 0!important;
+    padding: 1.5rem 1rem;
+}
+
+.editProfile .editProfile-form .inputen .form-control,
+.profileModal-styleunifiednumber .inputen .form-control{
+    border-radius: 15px 0 0 15px!important;
+    padding: 1.5rem 1rem;
+}
+
+.editProfile .editProfile-form .inputar .input-group-text,
+.profileModal-styleunifiednumber .inputar .input-group-text{
+    border-radius: 15px 0 0 15px!important;
+    padding: 5px 18px;
+    color: #9E9E9E;
+}
+
+.editProfile .editProfile-form .inputen .input-group-text,
+.profileModal-styleunifiednumber .inputen .input-group-text{
+    border-radius: 0 15px 15px 0!important;
+    padding: 5px 15px;
+}
+
+.editProfile .editProfile-form .dropdown .dropdown-menu,
+.profileModal-styleunifiednumber .dropdown .dropdown-menu{
+    height: 250px;
+    overflow: hidden;
+    overflow-y: auto;
+    transform: none!important;
+    min-width: 4rem;
+}
+
+.editProfile .editProfile-form .dropdown button,
+.editProfile .editProfile-form .dropdown button:focus,
+.profileModal-styleunifiednumber .dropdown button,
+.profileModal-styleunifiednumber .dropdown button:focus{
+    background-color: #fff;
+    border: 1px solid #fff;
+    outline: none;
+    box-shadow: none!important;
+    color: #000;
+    border-radius: 15px;
+}
+
+
+/* End Edit Profile */
+
+@media(max-width: 1439px){
+    .profileView .profile-cardBody{
+        width: 95%;
+    }
+}
+
+@media(max-width: 990px){
+    .profileView .profile-cardBody{
+        width: 90%;
+    }
+}
+
+@media(max-width: 766px){
+    .profileView .profile-cardBody{
+        width: 100%;
+    }
+    .profileView .profile-cardBody h4, .profileModal .modal-title{
+        font-size: 13px
+    }
+    .editProfile{
+        width: 100%;
+    }
+    .editProfile h2{
+        font-size: 15px;
+        margin-bottom: 2rem;
+    }
+    .profcardthree .profcardthree-listservices img{
+        width: 100%;
+    }
+    .profcardthree .profcardthree-listservices textarea{
+        font-size: 10px;
+        padding: 8px 10px;
+    }
+    .profcardseven-address{
+        display: inline;
+    }
+    .profcardseven-address .form-group{
+        width: 100%;
+    }
+    .profileModal .closeModal{
+        width: 35px!important;
+    }
+}

@@ -1,0 +1,36 @@
+.paddingDepartment { height: 50px; }
+#departmentCard { width: 90%; transition: all .15s ease-out; }
+#departmentCard a:hover { color: #fff; text-decoration: none !important }
+#departmentCard .card {
+    border-radius: 30px;
+    box-shadow: rgba(82, 163, 24, 0.13)  0px 0px 31px 1px !important;
+    margin-bottom: 25px;
+    padding: 50px 0;
+    border: 0;
+    text-align: center;
+}
+#departmentCard .card:hover 
+{ background-image: linear-gradient(to right,#FD9046,#FB8332); cursor: pointer;  color: #fff; }
+.departImg img { width: 50%; display: block; margin: auto  }
+.departWhiteImg img { width: 45%; display: none; margin: auto }
+.departmentName { margin-top: 30px; color: #347704; }
+#departmentCard .card:hover .departmentName { color: #fff; }
+#departmentCard .card:hover .departImg img { display: none }
+#departmentCard .card:hover .departWhiteImg img { display: block; }
+ .cardAnimation_ExternalFile:hover {
+    transform: perspective(600px) rotateY(180deg) !important;
+    -webkit-transform: perspective(600px) rotateY(180deg) !important;
+    -moz-transform: perspective(600px) rotateY(180deg) !important;
+    -ms-transform: perspective(600px) rotateY(180deg) !important;
+    -o-transform: perspective(600px) rotateY(180deg) !important;
+}
+.cardAnimation_ExternalFile:hover .departmentName{
+    opacity: 0!important;
+}
+/* .cardAnimation_ExternalFile:hover  .departWhiteImg{
+    transform: perspective(600px) rotateY(-180deg);
+    -webkit-transform: perspective(600px) rotateY(-180deg);
+    -moz-transform: perspective(600px) rotateY(-180deg);
+    -ms-transform: perspective(600px) rotateY(-180deg);
+    -o-transform: perspective(600px) rotateY(-180deg);
+} */

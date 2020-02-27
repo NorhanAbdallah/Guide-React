@@ -1,0 +1,31 @@
+.checkboxlabel{ width: auto!important}
+.checkboxlabel span{margin: 0 22px;}
+
+#fields .form-control {
+    border : none ;
+    padding : 10px ;
+    border-radius: 20px !important;
+    height: 50px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+}
+#fields textarea.form-control {
+    height: 150px !important;
+}
+.LeftAlign{
+    text-align: left;
+}
+.RightAlign{
+    text-align: right;
+}
+
+
+
+
+
+  
+
+   
+

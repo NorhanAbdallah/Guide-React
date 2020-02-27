@@ -1,0 +1,698 @@
+
+/* Start General Auth */
+
+.styleRules .modal-content{
+    height: 80vh;
+    overflow: hidden;
+    overflow-y: auto;
+    border-radius: 20px;
+    padding: 8px 10px;
+    margin-top: 80px;
+}
+
+.styleAuthModal{
+    margin: 0!important;
+    margin: 0 auto!important;
+    min-height: 99vh;
+}
+.arrowDown { color: #52A318; position: absolute; top: 8px; left: 20px; }
+.arrowDown i{ background-color: #fff; }
+.arrowDownEN { color: #52A318; position: absolute; top: 8px; right: 20px; }
+.arrowDownEN i{ background-color: #fff; }
+
+.RegisterSpecialWidth select{
+    color: #52A318;
+}
+
+.styleAuthModal .modal-content{
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.styleAuthModal .modal-header{
+    border-bottom: 0!important;
+    position: relative;
+}
+
+.styleAuthModal .closeModal{
+    position: absolute;
+    top: 15px;
+    width: 50px!important;
+    cursor: pointer;
+}
+
+.styleAuthModal .modal-title{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.styleAuthModal .modal-header .close{
+    display: none;
+}
+
+.styleAuthModal .modal-title img{
+    width: 50%
+}
+
+.styleAuthModal .closeModal{
+    right: 10px;
+}
+
+.styleAuthModal .closeModal{
+    left: 10px;
+}
+
+.styleAuthModal .EnterPageBody{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.styleAuthModal .EnterPageBody > div{
+    cursor: pointer;
+}
+
+.styleAuthModal .EnterPageBody > div a:hover{
+    text-decoration: none
+}
+
+.styleAuthModal .AuthGreenBox{
+    background-color: #4F9E16;
+}
+
+.styleAuthModal .AuthOrangeBox{
+    background-color: #FC893A;
+}
+
+.AuthOrangeTitle h3, .AuthGreenTitle h3{
+    font-size: 1.5rem;
+}
+
+.styleAuthModal .AuthOrangeBox,
+.styleAuthModal .AuthGreenBox{
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
+    color: #fff;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2),0 6px 12px 0 rgba(0,0,0,0.19);
+    line-height: 180px;
+    margin: auto
+}
+
+.styleAuthModal .AuthOrangeBox img,
+.styleAuthModal .AuthGreenBox img{
+    width: 30%;
+}
+
+.AuthGreenTitle{
+    color: #4F9E16;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem
+}
+
+.AuthOrangeTitle{
+    color: #FC893A;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.erroMSGAuthen{
+    padding-left: 10px;
+    color: red;
+    font-size: 15px;
+    margin-top: 5px;
+    display: flex;
+}
+
+.erroMSGAuthar{
+    padding-right: 10px;
+    color: red;
+    font-size: 15px;
+    margin-top: 16px;
+    display: flex;
+}
+
+.styleAuthModalWidth{
+    max-width: 40%!important;
+}
+
+.styleAuthModal .forgetPass{
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 16px;
+    font-weight: 900;
+}
+
+.styleAuthModal .forgetPass span, .styleAuthModal .socialLinks img{
+    cursor: pointer;
+}
+
+.styleAuthModal .specialWidthLogin{
+    width: 80%;
+    margin: auto
+}
+
+div[tabindex='-1']{
+    /* display: none!important; */
+    z-index: 800!important;
+}
+
+.modal-backdrop{
+    z-index: 0!important;
+}
+
+/* End General Auth */
+
+/* Start Input Auth */
+
+.styleAuthModal .inputShadow{
+    box-shadow: 0 0 7px 6px rgba(0, 0, 0, 0.04);
+    border-radius: 15px;
+}
+
+.styleAuthModal .input-group-append i{
+    color: #9E9E9E;
+    font-size: 20px;
+}
+
+.inputShadow ::placeholder{
+    color: #777;
+}
+
+.styleAuthModal .input-group-append{
+    margin-left: 0px
+}
+
+.styleAuthModal .AuthInputen,
+.styleAuthModal .AuthInputar{
+    padding: 5px 0;
+    height: auto;
+}
+
+.styleAuthModal .GeneralAuthInput{
+    height: auto;
+    width: 100%;
+    padding: 5px 15px;
+    border-radius: 15px!important;
+    border: 1px solid #ced4da!important;
+    background-color: #fff!important;
+}
+
+.styleAuthModal .GeneralAuthInput:focus{
+    border-color:#ced4da!important;;
+    box-shadow: none;
+    outline: none
+}
+
+.selectGeneralAuth{
+    height: auto!important;
+    padding: 15px .75rem!important;
+}
+
+.styleAuthModal .AuthInputen:focus,
+.styleAuthModal .AuthInputar:focus{
+    border-color:#ced4da!important;;
+    box-shadow: none;
+    outline: none
+}
+
+.styleAuthModal .AuthInputen{
+    border: 1px solid #ced4da!important;
+    padding-left: 15px;
+    border-right: 0!important;
+    border-radius: 0!important;
+    border-top-left-radius: 15px!important;
+    border-bottom-left-radius: 15px!important;
+}
+
+.styleAuthModal .AuthInputar{
+    border: 1px solid #ced4da!important;
+    padding-right: 15px;
+    border-left: 0!important;
+    border-radius: 0;
+    border-top-right-radius: 15px!important;
+    border-bottom-right-radius: 15px!important;
+}
+
+.styleAuthModal .input-group-text{
+    background-color: inherit;
+
+}
+
+.styleAuthModal .Authaddonar{
+    padding-left: 20px;
+    border-radius: 0;
+    border-top-left-radius: 15px!important;
+    border-bottom-left-radius: 15px!important;
+    border-right: 0!important;
+}
+
+.styleAuthModal .Authaddonen{
+    padding-right: 20px;
+    border-radius: 0;
+    border-top-right-radius: 15px!important;
+    border-bottom-right-radius: 15px!important;
+    border-left: 0!important;
+}
+
+.styleAuthModal .styleBTN{
+    background-image: linear-gradient(to right,#52A318, #347704); border-color: #52A318 !important;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0;
+    border-radius: 15px;
+    border: 0;
+    outline: 0;
+    font-size: 1.3rem;
+    box-shadow: 0 0 7px 6px rgba(0, 0, 0, 0.04);
+    color: #fff;
+    margin-top: 10px;
+}
+
+.styleAuthModal .styleBTN:hover,
+.styleAuthModal .styleBTN:active{
+    background-image: linear-gradient(to right,#FD9046,#FB8332); border-color: #FD9046 !important;
+}
+
+.stylecheckBox input[type=checkbox] + label{
+    cursor: pointer;
+}
+
+.stylecheckBox input[type=checkbox]{
+    display: none;
+}
+  
+.stylecheckBox input[type=checkbox] + label:before {
+    content: "\2714";
+    border: 0.1em solid #999;
+    border-radius: 0.2em;
+    display: inline-block;
+    margin-right: 0.2em;
+    vertical-align: bottom;
+    color: transparent;
+    transition: .2s;
+    width: 25px;
+    height: 25px;
+}
+
+/* .stylecheckBox input[type=checkbox] + label:active:before {
+    transform: scale(0);
+} */
+  
+.stylecheckBox input[type=checkbox]:checked + label:before {
+    background-color: MediumSeaGreen;
+    border-color: MediumSeaGreen;
+    color: #fff;
+}
+
+.stylecheckBox span{
+    font-size: 20px;
+    margin-top: -5px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.styleAuthModal .kep-login-facebook,
+.styleAuthModal .kep-login-facebook:focus{
+    font-size: 0!important;
+    background-color: inherit!important;
+    border: 0!important;
+    padding: 0!important;
+    outline: 0!important;
+    height: 0;
+}
+
+.styleAuthModal .kep-login-facebook::after{
+    content: url('../../assets/Images/face.png')
+}
+
+.styleAuthModal .socialLinks > button{
+    background-color: inherit!important;
+    border: 0!important;
+    padding: 0!important;
+    outline: 0!important;
+    height: 0;
+}
+
+.styleAuthModal .socialLinks button span,
+.styleAuthModal .socialLinks button span:focus{
+    font-size: 0!important;
+    background-color: inherit!important;
+    border: 0!important;
+    padding: 0!important;
+    outline: 0!important;
+    height: 0;
+}
+
+.styleAuthModal .socialLinks button span svg{
+    display: none;
+}
+
+.firebaseui-container{
+    opacity: 0;
+    z-index: 50;
+}
+
+#firebaseui_container{
+    position: relative;
+}
+
+.styleAuthModal .firebaseui-idp-twitter, .firebaseui-idp-twitter:hover, .mdl-button.firebaseui-idp-twitter:active, .mdl-button.firebaseui-idp-twitter:focus{
+    background-color: inherit!important;
+    box-shadow: none
+}
+
+.styleAuthModal .socialLinks #firebaseui_container::after{
+    content: url('../../assets/Images/twitter.png');
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+
+.styleAuthModal .socialLinks{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.styleAuthModal .firebaseui-card-content, .styleAuthModal .firebaseui-card-footer, .styleAuthModal .firebaseui-idp-button{
+    padding: 0;
+}
+
+.styleAuthModal .firebaseui-idp-list{
+    margin: 0;
+}
+
+.styleAuthModal .agreecheckbox .input-group-text{
+    border: 0;
+}
+
+.styleAuthModal .agreecheckbox label{
+    margin-bottom: 0;
+}
+
+/* End Input Auth */
+
+/* Start Business Register */
+
+.RegisterSpecialWidth{
+    max-width: 60%!important;
+}
+
+.selectRegister{
+    border-radius: 0!important;
+    border-radius: 15px!important;
+    padding: .1rem 1rem!important;
+    height: auto!important;
+    border: 2px solid #FC893A!important;
+    color: #FC893A!important
+}
+
+.RegisterSpecialWidth input[type="file"] {
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    height: 50px;
+    opacity: 0;
+}
+.RegisterSpecialWidth .custom-file-upload {
+    border: 2px dashed #AAAAAA;
+    display: block;
+    padding: 5px 0px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 18px;
+}
+
+.RegisterSpecialWidth .custom-date {
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 18px;
+    background-color: #FC8A3D;
+    padding-bottom: 8px;
+    padding-top: 12px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.RegisterSpecialWidth .selectDateAuth{
+    position: absolute;
+    top: 0;
+    height: 45px;
+    width: 90%;
+}
+
+.react-datepicker-wrapper,.react-datepicker__input-container{width: 100%;}
+
+.RegisterSpecialWidth .selectDateAuth input{
+    height: 50px;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.verticleBorderen{
+    border-left: 1.5px solid rgba(0,0,0,0.2);
+}
+
+.verticleBorderar{
+    border-right: 1.5px solid rgba(0,0,0,0.2);
+}
+
+.selectCountryKey .Authaddonen,
+.selectCountryKey .Authaddonar{
+    padding: 0;
+}
+
+.selectCountryKey .Authaddonen .dropdown,
+.selectCountryKey .Authaddonar .dropdown{
+    padding: 0 5px 2px;
+    border-radius: 15px;
+    margin: 0 10px;
+    background-color: #E9E9E9;
+    border: 0;
+}
+
+.selectCountryKey .Authaddonen .dropdown button,
+.selectCountryKey .Authaddonar .dropdown button{
+    background-color: inherit;
+    border: 0;
+    padding: 0 5px;
+    color: #000
+}
+
+.selectCountryKey .Authaddonen .dropdown button:focus,
+.selectCountryKey .Authaddonar .dropdown button:focus,
+.selectCountryKey .Authaddonen .dropdown button:active,
+.selectCountryKey .Authaddonar .dropdown button:active{
+    outline: 0;
+    box-shadow: none!important;
+    background-color: inherit;
+    border-color: inherit
+}
+
+.selectCountryKey .Authaddonen .dropdown .dropdown-menu,
+.selectCountryKey .Authaddonar .dropdown .dropdown-menu{
+    height: 250px;
+    overflow: hidden;
+    overflow-y: auto;
+    transform: none!important;
+    min-width: 4rem;
+}
+
+.removeSpecialMargin > div {
+    margin-bottom: 0!important
+}
+
+.specialLabelStyle{
+    position: relative;
+    margin-bottom: 20 
+}
+
+.specialLabelStyle label{
+    position: absolute;
+    top: 15px;
+    color: #495057bf;
+    margin-bottom: 0;
+}
+
+.specialLabelStyle .labelar{
+    right: 15px;
+    text-align: right;
+}
+
+.specialLabelStyle .labelen{
+    left: 15px;
+    text-align: left;
+}
+
+.specialLabelStyle label span{
+    color: red;
+    font-weight: bold
+}
+
+/* End Business Register */
+
+/* Start Payment */
+
+.stylePaymentModal .AuthGreenTitle{
+    margin-bottom: 1.2rem;
+}
+
+.stylePaymentModal .modal-body{
+    text-align: center;
+}
+
+.stylePaymentModal .modal-body h4{
+    color: #FFC406;
+    /* display: inline-block; */
+    text-shadow: 2px 2px 3px #00000063;
+}
+
+.stylePaymentModal .modal-body h4 span{
+    font-size: 60px;
+}
+
+.stylePaymentModal .modal-body h6{
+    color: #aeaeae;
+    margin-bottom: 1.3rem;
+}
+
+.stylePaymentModal .modal-body form{
+    width: 85%;
+    margin: auto;
+}
+
+.stylePaymentModal .modal-body form > div{
+    margin-bottom: 1rem;
+}
+
+.stylePaymentModal .modal-body form input{
+    box-shadow: 0 0 7px 6px rgba(0, 0, 0, 0.04);
+    border-radius: 15px;
+    padding: 1.5rem .75rem;
+}
+
+
+/* Start Payment */
+
+@media(max-width: 1439px){
+    .styleAuthModalWidth{
+        max-width: 50%!important;
+    }
+    .RegisterSpecialWidth{
+        max-width: 90%!important;
+    }
+}
+
+@media(max-width: 990px){
+    .verticleBorderen{
+        border-left: 0;
+    }
+    .verticleBorderar{
+        border-right: 0;
+    }
+    .styleAuthModalWidth{
+        max-width: 75%!important;
+    }
+    .styleAuthModal .modal-content{
+        width: 100%!important;
+        margin: auto;
+        position: relative;
+        transform: inherit;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media(max-width: 766px){
+    .styleAuthModal .GeneralAuthInput{
+        font-size: 12px!important
+    }
+    .selectCountryKey .Authaddonen .dropdown button,
+    .selectCountryKey .Authaddonar .dropdown button{
+        padding: 0 3px 3px;
+        font-size: 12px
+    }
+    .selectCountryKey .Authaddonen .dropdown, .selectCountryKey .Authaddonar .dropdown{
+        padding: 3px
+    }
+    .styleAuthModal .modal-content{
+        width: 85%!important;
+        margin: auto;
+        position: relative;
+        transform: inherit;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .styleAuthModal .specialWidth, .styleAuthModalWidth,.RegisterSpecialWidth{
+        width: 100%!important;
+        max-width: 95%!important;
+    }
+    .styleAuthModal .specialWidth{
+        margin: auto
+    }
+    .styleAuthModal .AuthOrangeBox, .styleAuthModal .AuthGreenBox{
+        width: 120px;
+        height: 120px;
+        line-height: 100px;
+        margin-left: auto;
+    }
+    .styleAuthModal h2{
+        font-size: 1rem
+    }
+    .styleAuthModal .EnterPageBody h3{
+        font-size: 12px
+    }
+    .styleAuthModal form input, .styleAuthModal p, .styleAuthModal label{
+        font-size: 10px!important;
+    }
+    .styleAuthModal form input{
+        padding-bottom: 12px!important;
+        padding-top: 12px!important;
+    }
+    .styleAuthModal label{
+        margin-top: 3px!important;
+    }
+    .styleAuthModal .input-group-append i{
+        font-size: 16px!important;
+    }
+    .stylePaymentModal .modal-body form{
+        width: 100%;
+    }
+    .styleAuthModal .socialLinks img{
+        width: 55px;
+    }
+    .styleAuthModal .socialLinks span{
+        display: block;
+        margin-right: 0!important;
+        margin-bottom: 15px;
+    }
+    .erroMSGAuthen, .erroMSGAuthar{
+        font-size: 10px
+    }
+    .styleAuthModal .closeModal{
+        width: 35px!important;
+    }
+}
+
+@media(max-width: 320px){
+    .styleAuthModal .AuthOrangeBox, .styleAuthModal .AuthGreenBox{
+        width: 100px;
+        height: 100px;
+    }
+    .styleAuthModal .EnterPageBody{
+        justify-content: space-between
+    }
+    
+}
+

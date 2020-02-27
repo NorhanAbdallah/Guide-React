@@ -1,0 +1,54 @@
+.SocialBtns_ExternalFile{
+  box-shadow: 0 5px 15px -5px #00000070  !important;
+  overflow: hidden;
+  position: relative;
+}
+.SocialBtns_ExternalFile i{
+  font-size: 18px !important;
+}
+.SocialBtns_ExternalFile:hover i{
+  color: green !important;
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+}
+.SocialBtns_ExternalFile::before{
+  content: "";
+  position: absolute;
+  left:130%;
+  top:66%;
+  width: 164%;
+  height: 123%;
+  background: white;
+  border-color: white;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+.SocialBtns_ExternalFile:hover::before{
+  animation: animation1 0.7s 1;
+  top:-10%;
+  left:-10%;
+  -webkit-animation: animation1 0.7s 1;
+}
+#socialbtns{
+  border:none !important;
+}
+@keyframes animation1{
+  0%{
+    left: -110%;
+    top:   90%;
+  }
+  50%{
+    left: -10%;
+    top:  -30%;
+  }
+  100%{
+    left: -10%;
+    top:  -10%;
+  }
+}
